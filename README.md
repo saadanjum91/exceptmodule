@@ -34,3 +34,23 @@ For Example:
 ```
 obj.set('LOG_FILE', '/home/PC/test-app/ehm.log');
 ```
+
+### Reporting Levels
+EHM_EXCEPTION_CRITICAL = 1
+EHM_EXCEPTION_WARNING = 3
+EHM_EXCEPTION_IGNORABLE = 2
+EHM_LOG = 4
+
+###Error Loging and reporting
+```
+reportError(Reporting_level, error_message, error_code)
+```
+if Reporting_level = 1, then error_code will be used for counting similar errors and reporting on threshold limit reach.
+
+### Reporting Methods
+You can enable reporting methods by setting the following according to requirement:
+```
+POST_CRITICAL_ON_SLACK
+POST_IGNORABLE_ON_SLACK
+SEND_EMAIL_ON_THRESHOLD_REACH
+```
