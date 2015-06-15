@@ -36,10 +36,10 @@ obj.set('LOG_FILE', '/home/PC/test-app/ehm.log');
 ```
 
 ### Reporting Levels
-EHM_EXCEPTION_CRITICAL = 1
-EHM_EXCEPTION_WARNING = 3
-EHM_EXCEPTION_IGNORABLE = 2
-EHM_LOG = 4
+* EHM_EXCEPTION_CRITICAL = 1
+* EHM_EXCEPTION_WARNING = 3
+* EHM_EXCEPTION_IGNORABLE = 2
+* EHM_LOG = 4
 
 ###Error Loging and reporting
 ```
