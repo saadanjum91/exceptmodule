@@ -26,3 +26,11 @@ obj = ehm.exeptionHandlingModule('Application Name')
 * EMAIL_ADDRESS (email address on which notifications will be sent)
 * SLACK_CHANNEL (slack channel on which notifications will be sent)
 
+You can set an attribute as following:
+```
+obj.set(attributeName::String, Value);
+```
+For Example:
+```
+obj.set('LOG_FILE', '/home/PC/test-app/ehm.log');
+```
